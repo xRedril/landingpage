@@ -1,0 +1,79 @@
+
+body {
+    margin: 0px;
+}
+
+.headercontainer {
+    background-color: #1F2937;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+}
+
+.headerlogo {
+    color: white;
+
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    color: lightgray;
+}
+
+.item {
+    width: 130px;
+}
+
+.websiteinfo {
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+.awesomesite {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 48px;
+}
+
+.awesomepara {
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.signup {
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+}
+
+.storeimage {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.infocontainer {
+    display: flex;
+    gap: 261px;
+    padding-bottom: 100px;
+}
+
+.mountainimage {
+    width: 600px;
+    height: auto;
+    flex-grow: 1;
+}
+
+p {
+    max-width: fit-content;
+}
