@@ -1,0 +1,194 @@
+/*Header*/
+body {
+    margin: 0px;
+}
+
+.headercontainer {
+    background-color: #1F2937;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+}
+
+.headerlogo {
+    color: white;
+    width: 50px;
+
+}
+
+.OPlogo {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    color: lightgray;
+}
+
+.item {
+    width: 130px;
+}
+
+.websiteinfo {
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+.awesomesite {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 70px;
+}
+
+.awesomepara {
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.signup {
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.storeimage {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.infocontainer {
+    display: flex;
+    gap: 261px;
+    padding-bottom: 100px;
+}
+
+.mountainimage {
+    width: 600px;
+    height: auto;
+    flex-grow: 1;
+    padding-left: 24px;
+}
+
+p {
+    max-width: fit-content;
+}
+
+/*Body*/
+.bodycontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    padding-top: 20px;
+}
+
+.randominfo {
+    display: flex;
+    justify-content: center;
+}
+
+.fourimages {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+}
+
+.stackimage {
+    display: flex;
+    flex-direction: column;
+}
+
+.smallmountain {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.subtext {
+    display: flex;
+    color: gray;
+    justify-content: center;
+}
+
+/*Quote*/
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px 300px;
+    background-color: lightgray;
+}
+
+.quote {
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.actualquote {
+    justify-content: center;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.author {
+    justify-content: right;
+    display: flex;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+/*Call to Action*/
+.CTAcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightskyblue;
+    margin: 100px;
+    padding: 25px;
+    border-color: none;
+    border-radius: 10px;
+
+}
+
+.CTA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+
+.CTAheading {
+    justify-content: center;
+    margin: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+.CTAdescription {
+    margin: 0px;
+    color: white;
+}
+
+.buttoncontainer {}
+
+.CTAbutton {
+    padding: 5px 50px;
+    border-radius: 10px;
+    border-color: white;
+}
